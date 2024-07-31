@@ -72,18 +72,6 @@ li {
   color: #212529;
 }
 
-button {
-  display: inline-block;
-  cursor: pointer;
-  padding: 0 8px;
-  text-align: center;
-  line-height: 56px;
-  color: #495057;
-  font-size: 15px;
-  border: none;
-  background-color: transparent;
-}
-
 .header-right {
   display: inline-block;
   color: #495057;
@@ -115,6 +103,7 @@ ul {
   width: 50%;
   float: left;
 }
+
 .util {
   width: 40%;
   float: right;
@@ -124,6 +113,57 @@ ul {
   align-items: end;
   justify-content: end;
 }
+
+.util button {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0 8px;
+  text-align: center;
+  line-height: 56px;
+  color: #495057;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+}
+
 .util .project-made {
   margin-bottom: 7px;
+}
+
+.MainDesktop_headContent input {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    flex-grow: 1;
+    outline: none;
+    background: none;
+    padding-right: 32px;
+    width: 50%;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    font-size: 14px;
+    border-radius: 28px;
+    height: 56px;
+    min-height: 56px;
+    line-height: 56px;
+    padding-right: 24px;
+}
+
+
+.searchTxt {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: flex;
+    position: relative;
+    transition-property: border-color, background-color, color;
+    transition-duration: .15s;
+    outline: none;
+    border: 1px solid #00c4c4;
+    background-color: #fff;
+    padding: 0 10px 0 0;
+    color: #212529;
+    -webkit-appearance: none;
 }

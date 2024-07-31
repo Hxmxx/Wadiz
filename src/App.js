@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import SearchIcon from './search.svg';
 
 function App() {
   return (
@@ -20,6 +21,14 @@ function App() {
           <div className='project-made'>프로젝트 만들기</div>
         </div>
       </header>
+      <div className='MainDesktop_headContent'>
+        <form className='searchBox' action='' method='get'>
+          <input className='searchTxt' type='text' name='' placeholder='새로운 일상이 필요하신가요?'></input>
+          <button className='searchBtn' type='submit'>
+            <div> {SearchIcon} </div>
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
